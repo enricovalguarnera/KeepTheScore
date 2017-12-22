@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Keep The Score</string>
+    <string name="basket">Basket</string>
+    <string name="football">Football</string>"
+    <string name="volley">Volley</string>
+    <string name="tennis">Tennis</string>"
+    <string name="rugby">Rugby</string>"
+
+</resources>

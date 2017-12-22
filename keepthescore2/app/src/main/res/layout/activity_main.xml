@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="com.example.android.keepthescore.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="211dp"
+                    android:src="@drawable/sport" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tieni il punteggio del tuo match"
+                    android:textColor="#222222"
+                    android:textSize="40sp"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="8dp"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="400sp"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="Basket"
+                        android:fontFamily="sans-serif-black"
+                        android:textSize="24sp"
+                        android:textColor="@drawable/textcolorbasket"
+                        android:background="@drawable/basketbutton"
+                        android:layout_marginBottom="16dp"
+                        android:onClick="basketActivity" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-black"
+                        android:textSize="24sp"
+                        android:text="Volley"
+                        android:textColor="@drawable/textcolorvolley"
+                        android:background="@drawable/volleybutton"
+                        android:onClick="volleyActivity"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:text="Calcio"
+                        android:fontFamily="sans-serif-black"
+                        android:textSize="24sp"
+                        android:textColor="@drawable/textcolorfootball"
+                        android:background="@drawable/footballbutton"
+                        android:layout_marginBottom="16dp"
+                        android:onClick="footballActivity"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:text="Tennis"
+                        android:textColor="@drawable/textcolortennis"
+                        android:background="@drawable/tennisbutton"
+                        android:fontFamily="sans-serif-black"
+                        android:textSize="24dp"
+                        android:layout_marginBottom="16dp"
+                        android:onClick="tennisActivity"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-black"
+                        android:textSize="24dp"
+                        android:textColor="@drawable/textcolorrugby"
+                        android:background="@drawable/rugbybutton"
+                        android:text="Rugby"
+                        android:onClick="rugbyActivity"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
