@@ -5,7 +5,7 @@ A basic application to count the score. Play Tennis, Volley, Basket, Rugby and S
 
 ## Synopsis
 
-This project contain a simple mobile application. It shows a listview of sport selections. For each sport was developed a count score in order to game rules.
+This project contain a simple mobile application. It shows a listview of sports selection. For each sport was developed a count score in order to game rules.
 
 
 ## Installation
